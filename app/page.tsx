@@ -62,7 +62,7 @@ export default function Home() {
         height={200}
         unoptimized={true}
       />
-      <div className="pb-5 items-center">{prompts[count]}</div>
+      <div className="pb-5 items-center text-center">{prompts[count]}</div>
       <div className={yes}>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/C8nxICQI5Xo?si=r5307keoExVmq5rJ?autoplay=1" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
       </div>
