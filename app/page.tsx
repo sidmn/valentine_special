@@ -18,7 +18,7 @@ export default function Home() {
     "Please say yesssss > <",
     "I won't dissapoint you, please be my valentine? final offer",
     "Did you really think I would let you say No???",
-    "Lets Goo!!! My kudi said yesssss!!!"
+    "❤️❤️Lets Goo!!! My kudi said yesssss!!!❤️❤️"
   ];
 
   const gifs = [
@@ -62,16 +62,16 @@ export default function Home() {
         height={200}
         unoptimized={true}
       />
-      <div className="pb-5 items-center text-center">{prompts[count]}</div>
+      <div className="pb-5 text-white items-center text-center">{prompts[count]}</div>
       <div className={yes}>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/C8nxICQI5Xo?si=r5307keoExVmq5rJ?autoplay=1" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+      <iframe src="https://www.youtube.com/embed/C8nxICQI5Xo?si=r5307keoExVmq5rJ?autoplay=1" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="md:w-[560px] md:h-[315px]"></iframe>
       </div>
       <div className="flex flex-row gap-10">
-        <button className="border text-white bg-[#33b249] rounded-lg py-1 px-4" onClick={handleYes}>
+        <button className=" text-white bg-[#33b249] rounded-lg py-1 px-5 hover:shadow-lg" onClick={handleYes}>
           Yes
         </button>
         <button
-          className="border bg-red-600 text-white rounded-lg py-1 px-4"
+          className=" bg-red-600 text-white rounded-lg py-1 px-5 hover:shadow-lg"
           onClick={handleNo}
         >
           {no}
