@@ -54,7 +54,7 @@ export default function Home() {
   }
 
   return (
-    <main className=" flex flex-col items-center justify-center h-screen gap-5" >
+    <main className=" flex flex-col w-screen items-center justify-center h-screen gap-5" >
       <Image
         src={gifs[count]}
         alt="funny gif"
